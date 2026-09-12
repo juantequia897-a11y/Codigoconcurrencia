@@ -2,7 +2,7 @@
 
 Simulación en C++11 de la gestión concurrente de tráfico urbano mediante el patrón Productor-Consumidor.
 
-## 🚀 Descripción
+##  Descripción
 El sistema simula sensores de tráfico (productores) que generan lecturas en tiempo real y módulos de procesamiento (consumidores) que analizan los datos recibidos mediante un búfer compartido.
 
 ## 🛠️ Tecnologías y Primitivas de Concurrencia
@@ -11,7 +11,7 @@ El sistema simula sensores de tráfico (productores) que generan lecturas en tie
 * **Exclusión mutua:** `std::mutex` y `std::unique_lock`
 * **Sincronización:** `std::condition_variable`
 
-## ⚙️ Compilación y Ejecución
+##  Compilación y Ejecución
 Para compilar y ejecutar desde la terminal (usando MinGW / GCC):
 
 ```bash
